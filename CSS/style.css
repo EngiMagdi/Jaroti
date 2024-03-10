@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+   font-family:"Albert Sans";
+   font-style: normal;
+   font-weight:400;
+
+ 
+}
+
+a{ color: black;}
+.container-fluid p ,.container-fluid li a{
+  font-weight:400;
+  font-size: 12px;
+ line-height:  18px;
+  color:rgb(255, 255, 255) !important;
+}
+
+nav .container-fluid{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between}
+  .right{
+    display:none;
+  }
+  
+.dropdown-menu li a{
+  color: black !important;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-item a{
+  transition: all .3s;
+}
+
+.nav-item a:hover{
+Color:rgb(200, 200, 200)!important;
+}
+
+/* /header */
+.carousel-inner {height: 100vh;}
+.carousel-caption h5{
+  font-weight:900;
+  font-size: 48px;
+ line-height:  52px;
+  color:rgb(255, 255, 255) !important;
+}
+.carousel-caption{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  right: 0;
+  width: 100%;
+  text-align: start;
+}
+.carousel-caption button {padding-right: 0;
+transition: padding .5s;}
+
+.carousel-caption button :hover{padding-right:10px ;}
+
+.sc-nav{
+  background-color: rgb(221, 217, 217);
+  position: fixed;
+  top: 50px;
+  height: 100px;
+}
+.sc-nav .logo {
+   height: 30px;
+  width: 100px;
+}
+.sc-nav i{
+
+  font-weight:400;
+  font-size: 14px;
+ line-height:  24px;
+}
+.sc-nav .nav-item a:hover,.left-icon i:hover,.left-icon span:hover{
+  Color:rgb(193, 30, 30) !important;
+  }
+  .sc-nav .dropdown  li a{
+    font-weight:400;
+    font-size: 16px;
+   line-height:  22px;
+  }
+form{ 
+  Color:rgb(132, 132, 132)}
+  form input{
+    border: 1px solid rgb(132, 132, 132);
+    font-weight:400;
+    font-size: 12px;
+   line-height:  18px;
+  Color:rgb(132, 132, 132)
+
+  }
+  .div-form{width:300px!important}
+  .hide{display: none;}
+  /* <!-- best price --> */
+  .best-price .description small{
+    font-weight:400;
+    font-size: 16px;
+   line-height:  19px;
+  }
+  .best-price .description h2{
+    font-weight:800;
+    font-size: 36px;
+   line-height:  36px;
+  }
+  .best-price .description p{
+    font-weight:400;
+    font-size: 14px;
+   line-height:  24px;
+   color: black !important;
+  }
+
+  .best-price .description button, form button{background-color: black;  border-color: black; } 
+   .best-price .description button a,form button a{
+     text-decoration: none;
+    color: white;
+   }
+   .best-price .description button:hover,form button:hover{ background-color:rgb(193, 30, 30) !important ;border-color: rgb(193, 30, 30)  !important ;}
+ 
+
+/* ifram */
+.ifram-caption{width: 95%; margin: auto;}
+.ifram-caption h2{
+  font-weight:800;
+  font-size : 30px;
+ line-height:  30px;
+}
+.ifram-caption p{
+ line-height:  24px;
+}
+/* .ifram-container iframe{
+  /* width: 100vw !important;} */
+
+
+
+.product-caption a,.product-card a .arrival-caption a{text-decoration: none!important;}
+.r-layer{
+  position: absolute;
+  right:0;
+  top: 0;
+  margin:10px 0px;
+  transition: all .5s;
+  opacity:0
+
+}
+
+.icon-title i{
+  background-color: white;
+  color: black;
+}
+.icon-title span{display:none ;}
+.icon-title i:hover{
+  background-color:rgb(193, 30, 30) !important; 
+  color:white !important;
+}
+/*  */
+/* .icon-title :hover  .icon-title  span{ display: block;} */
+.b-layer{
+  width:90%;
+  margin:0 10px 7px;
+  position: absolute;
+  bottom:  0;
+  transition: all .5s;
+  opacity:0
+  
+}
+
+.b-layer:hover {
+  background-color:rgb(193, 30, 30) !important;
+  color:white !important;
+ } 
+ .b-layer:hover p a{
+  color:white !important;
+ } 
+.product-card:hover .b-layer {opacity:1}
+.product-card:hover .r-layer {opacity:1}
+.product-caption a:hover{ color:rgb(193, 30, 30) !important; }
+/* .gift-caption a:hover .product-card.b-layer {bottom: 0;} */
+
+
+/* perfict-gift */
+.gift-container,.product-container{width: 90%;}
+.perfict-gift h2,.feature-product h2{
+  font-weight: 800;
+  font-size: 24px;
+  line-height:  24px;
+
+}
+.gift-card img{
+  transition: scale .3s ;
+}
+.gift-card img:hover {
+  scale: .9;
+}
+.gift-caption a{
+  text-decoration: none;
+  color:black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height:  26px;
+
+}
+.gift-caption a:hover{text-decoration: underline;}
+
+.gift-caption p{
+  color: rgb(132, 132, 132);
+   font-size: 14px;
+  line-height:  24px;
+}
+.gift-caption button a ,.arrival-caption button a{
+  text-decoration: none;
+  color: white !important;
+  font-size: 14px;
+ line-height:  24px;
+ font-weight: 700;
+
+}
+.gift-caption button ,.arrival-caption button {background-color: black; border:  1px solid black ;}
+.gift-caption button:hover ,.arrival-caption button:hover{
+background-color: rgb(193, 30, 30) !important;
+border:  1px solid rgb(193, 30, 30) ;
+}
+.gift-caption button:hover a{text-decoration: none;}
+
+
+
+/* shop now */
+.shop-now{
+  background-color: #f4e1e1;
+  font-size: 25px;
+ line-height:  24px;
+
+}
+.shop-now div a:hover{
+  color:rgb(193, 30, 30)
+
+}
+.img-container{
+  height: 100px;
+  overflow: hidden;
+}
+
+/* footer */
+.f-captionLeft h4{
+  font-weight: 800;
+  font-size: 18px;
+  line-height:  24px;
+ 
+}
+.f-captionLeft a{
+  display: block;
+  text-decoration: none;
+  color:#777171;
+  font-weight: 400;
+  font-size: 14px;
+  line-height:  22px;
+  padding: 7px 0;
+}
+.f-captionLeft a:hover{
+  color:white
+}
+.f-captionRight p{
+  padding: 7px 0;
+  color:#777171;
+  font-weight: 400;
+  font-size: 14px;
+  line-height:  20px;
+}
+.f-captionRight{order: 1;}
+.f-captionRight button{
+  background-color: black;
+  color:white;
+  position: absolute;
+  top:5px;
+  right:5px;
+  bottom: 5px;
+}
+.f-captionRight button:hover{
+  background-color:white;
+  color:black;
+}
+
+footer {
+  padding: 20px;
+  
+}
+footer i{
+  font-weight: 400;
+  font-size: 24;
+  line-height: 24;
+  color: rgb(170, 170, 170);
+}
+
+
+.f-img ,.f-img .img-card {height: 100px; overflow: hidden;}
+
+/* lg */
+ @media screen and (min-width:992px){
+  /* nav */
+  .right{display:block;}
+  /* ifram */
+.ifram-caption h2{
+  font-weight:800;
+  font-size : 48px;
+ line-height:  48px;
+}
+
+  /* shop now */
+  .shop-now{font-size: 30px;}
+  .f-captionRight{order: 2;}
+  footer {
+    padding: 20px 45px;
+  }
+ 
+}
+@media screen and (min-width:768px)and (max-width:992px) {
+  .f-captionRight{
+  order: 1;
+  text-align: center !important;
+  width: 80%;
+  margin: auto!important;
+ 
+}} 
+@media screen and (min-width:500px)and (max-width:768px){
+  .f-captionRight{
+    order: 1;
+    text-align: center !important;
+    width: 80%;
+    margin: auto!important;
+  }
+
+
+} 
+@media screen and (min-width:360px)and (max-width:500px){
+  .f-captionRight{
+    order: 1 !important;
+    text-align: center !important;
+    width: 80%;
+    margin: auto!important;}
+
+}
